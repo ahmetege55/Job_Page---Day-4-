@@ -1,0 +1,51 @@
+.job-post{
+    background-color: white;
+    margin-left:98px;
+    padding: 50px 52px 57px 50px;
+    box-shadow: 0px 21px 87px -38px rgba(80, 98, 211, 0.5);
+    border-radius: 20px;
+    width: 606px;
+}
+.job-post h2{
+    font-weight:700;
+    font-size: 25.6px;
+    line-height: 32px;
+}
+.job-post h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111127;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin: 5px 0 24px 0;
+}
+.job-post p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111127;
+    margin: 0 0 32px 0;
+}
+.button-post{
+    background: #E7EAFB;
+    border-radius: 21.5px;
+    border:none;
+    padding: 7px 20px 7px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #111127;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.button-post:hover{
+    cursor: pointer;
+    background-color: #caccda; 
+    transition: all .4s ease-in-out;
+    color:white;
+    background-position: 100% 0%;
+}

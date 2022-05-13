@@ -1,0 +1,169 @@
+.right {
+  display:flex;
+  gap:49.55px;
+}
+.right p{
+  margin-top:645px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+.search{
+    background: #FFFFFF;
+    border: 1px solid #E7EAFB;
+    border-radius: 20px 20px 20px 20px;
+    width: 299px;
+}
+.search hr{
+    height: 2px;
+    background-color: #E7EAFB;
+    border: none;
+    
+}
+.search-info{
+  margin-left:30px;
+
+}
+
+.search-bar{
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 8px;
+    position: relative;
+    margin:30px 30px 30px 30px;
+    
+}
+.search-icon{
+    position: absolute;
+    
+    
+}
+.search input{
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20p;
+    opacity: 0.7;
+    
+}
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+}
+.search-info h3:first-child{
+  margin:30px 0 25px 0;
+}
+
+.search label{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 17px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+ .search label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background: #FFFFFF;
+    border: 2px solid #E7EAFB;
+    border-radius: 5px;
+  }
+ 
+  .search label input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .search label  input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .search label .checkmark:after {
+    left: 9px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0px;
+    transform: rotate(45deg);
+  }
+  
+  select{
+    width: 239px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 2px solid #E7EAFB;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 23px;
+    margin-bottom:20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+/* identical to box height */
+
+
+color: #111127;
+  }
+  .buttons{
+    display:flex;
+    justify-content:start;
+    gap:10px;
+}
+
+.search-info{
+    display:flex;
+    flex-direction: column;
+}
+.search button{
+    
+    background: #8A9CFF;
+    box-shadow: 0px 11px 30px -15px #6778E1;
+    border-radius: 8px;
+    Width :239px;
+    Height : 57px;
+    border:none;
+    color:white;
+    margin:0 30px 37px 30px;
+}
+.search button:hover{
+    cursor: pointer;
+    background-color: #afb8ec; 
+    transition: all .4s ease-in-out;
+    color:white;
+    background-position: 100% 0%;
+}
+.loc{
+  margin-bottom: 15px;
+
+}
+.reg{
+  margin-bottom: 10px;
+
+}
+
+
